@@ -1,4 +1,4 @@
-const { User } = require('../models');
+const { User } = require('../models/Index');
 
 const userData = [
     {
@@ -10,8 +10,8 @@ const userData = [
         password: 'test.1234'
     },
     {
-        username:'user3',
-        password:'test.1234'
+        username: 'user3',
+        password: 'test.1234'
     }
 ];
 
