@@ -46,6 +46,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## First Steps
 
+load seeds: node seeds/index.js
 
 
 ## Dependencies
@@ -54,7 +55,7 @@ mysql2
 sequelize
 bcrypt
 express-session
-handlebars
+express-handlebars
 connect-session-sequelize
 
 ## Links
