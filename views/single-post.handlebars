@@ -1,10 +1,12 @@
+
+
 {{> post-info post}}
 
+
 {{#if loggedIn}}
-<div class="card">
+<div class= "card">
     <h3 class="card-header"></h3>
     <form class="card-body comment-form" id="comment-form">
-
         <label class="form-label">Comment</label>
         <input id="comment" name="comment-body" class="form-input" />
 
@@ -16,5 +18,5 @@
 {{> comments post.comments}}
 
 {{#if loggedIn}}
-<script src="/javascript/comment.js"></script>
+<script src="/js/comment.js"></script>
 {{/if}}
