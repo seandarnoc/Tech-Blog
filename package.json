@@ -1,6 +1,9 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.11.1"
+  },
   "description": "this site allows developers to publish their blog posts and be able to comment on other developers blog posts.",
   "main": "server.js",
   "scripts": {
