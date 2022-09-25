@@ -15,7 +15,7 @@ require("dotenv").config;
 const sess = {
     secret: 'Super secret secret',
     cookie: {
-        maxAge: 400,
+        maxAge: 2000000,
         sameSite: true
     },
     resave: false,
