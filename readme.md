@@ -50,15 +50,19 @@ load seeds: node seeds/index.js
 
 
 ## Dependencies
-express
-mysql2
-sequelize
-bcrypt
-express-session
-express-handlebars
-connect-session-sequelize
+### express
+### mysql2
+### sequelize
+### bcrypt
+### express-session
+### express-handlebars
+### connect-session-sequelize
+### dotenv
 
 ## Links
 
 https://github.com/seandarnoc/Tech-Blog
+
+deployed app https://seandarnoc-tech-blog.herokuapp.com/
+
 
